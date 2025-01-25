@@ -5,6 +5,7 @@
   --tertiary-color-2: #999999;
   --input-field-color: #444444;
   --base-color: #2f2f2f;
+  --base-color-2: #3f3f3f;
   --text-color: #f9f9ff;
 }
 
@@ -12,4 +13,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body  {
+  font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Courier New', Courier, monospace;
 }

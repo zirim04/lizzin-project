@@ -12,18 +12,148 @@
     display: flex;
   }
 }
-.side_bar_top {
+
+.side_home,
+.side_search,
+.side_main_top,
+.side_library,
+.side_main_tr {
+  align-items: center;
+}
+
+.side_main_middle {
+  align-items: flex-start;
+}
+
+.side_bar_top,
+.side_bar_main {
   background-color: var(--base-color);
-  height: 15%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+}
+
+.side_main_middle {
+  background-color: var(--base-color-2);
+}
+
+.playlist-btn {
+  background-color: var(--primary-color);
+}
+
+.playlist-btn {
+  border: none;
+}
+
+.playlist-btn {
+  color: var(--secondary-color);
+}
+
+.side_bar_top,
+.side_bar_main,
+.side_main_middle {
   border-radius: 0.25rem;
 }
-.side_home  {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding-left: 2rem;
-    cursor: pointer;
+
+.playlist-btn {
+  border-radius: 50px;
+}
+
+.side_home,
+.side_search, .playlist-btn, .icon-btn {
+  cursor: pointer;
+}
+
+.side_bar_top,
+.side_home,
+.side_search,
+.side_main_top,
+.side_library,
+.side_main_tr,
+.side_main_middle {
+  display: flex;
+}
+
+.side_bar_top,
+.side_main_middle {
+  flex-direction: column;
+}
+
+.side_main_middle p {
+  font-weight: 300;
+}
+
+.side_home p,
+.side_search p,
+.side_library p,
+.side_main_middle,
+.side_main_middle h1 {
+  font-weight: 600;
+}
+
+.playlist-btn {
+  font-size: 15px;
+}
+
+.side_main_middle h1 {
+  font-size: 1em;
+}
+
+.side_main_middle p {
+  font-size: 14px;
+}
+
+.side_home,
+.side_search,
+.side_library,
+.side_main_tr {
+  gap: 0.75rem;
+}
+
+.side_main_middle {
+  gap: 0.25rem;
+}
+
+.side_bar_top {
+  height: 15%;
+}
+
+.side_bar_main {
+  height: 85%;
+}
+
+.side_main_middle {
+  justify-content: flex-start;
+}
+
+.side_bar_top {
+  justify-content: space-around;
+}
+
+.side_main_top {
+  justify-content: space-between;
+}
+
+.side_main_middle {
+  margin: 0.5rem;
+}
+
+.playlist-btn,
+.side_main_middle2 {
+  margin-top: 1rem;
+}
+
+.side_main_top,
+.side_main_middle {
+  padding: 1rem;
+}
+
+.playlist-btn {
+  padding: 0.375rem 1rem;
+}
+
+.side_home,
+.side_search {
+  padding-left: 2rem;
+}
+
+.side_main_middle {
+  padding-left: 1rem;
 }
