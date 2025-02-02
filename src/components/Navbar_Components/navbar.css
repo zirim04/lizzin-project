@@ -1,0 +1,94 @@
+.navbar_frame,
+.reg_container {
+  align-items: center;
+}
+
+.navbar_container {
+  background-color: var(--base-color);
+}
+
+.reg_line {
+  background-color: var(--primary-color);
+}
+
+.lizzin_logo  {
+  cursor: pointer;
+}
+
+.navbar_container,
+.navbar_frame,
+.reg_container {
+  display: flex;
+}
+
+.navbar_frame {
+  justify-content: space-between;
+}
+
+.reg_container {
+  gap: 1rem;
+}
+
+.reg_line {
+  height: 1.75rem;
+}
+
+.navbar_container {
+  height: max-content;
+}
+
+.reg_container {
+  justify-content: center;
+}
+
+.navbar_frame {
+  margin: 0 0.825rem;
+}
+
+.navbar_container {
+  min-height: 10%;
+}
+
+.navbar_container {
+  padding: 0.5rem 0;
+}
+
+.reg_line {
+  width: 0.125rem;
+}
+
+.navbar_container,
+.navbar_frame {
+  width: 100%;
+}
+
+.lizzin_logo {
+  width: 3rem;
+}
+
+@media (min-width: 400px) {
+  .lizzin_logo {
+    width: 4rem;
+  }
+  .navbar_frame {
+    margin: 0 1.5rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .lizzin_logo {
+    width: 5rem;
+  }
+  .navbar_frame {
+    margin: 0 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lizzin_logo {
+    width: 7rem;
+  }
+  .navbar_frame {
+    margin: 0 2.5rem;
+  }
+}

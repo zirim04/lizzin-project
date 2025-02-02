@@ -1,0 +1,128 @@
+.banner_img,
+.banner_info {
+  align-items: center;
+}
+
+.banner_container {
+  background: linear-gradient(to right, #ffea0033, #9993, #ffea0033);
+}
+
+.banner_info button {
+  background-color: var(--primary-color);
+}
+
+.banner_info button {
+  border: none;
+}
+
+.banner_info button {
+  border-radius: 1rem;
+}
+
+.banner_info h1 span {
+  color: var(--primary-color);
+}
+
+.banner_info button {
+  color: var(--secondary-color);
+}
+
+.banner_info p {
+  color: var(--tertiary-color);
+}
+
+.banner_info,
+.banner_info p span {
+  color: var(--text-color);
+}
+
+.banner_info button {
+  cursor: pointer;
+}
+
+.banner_container,
+.banner_img,
+.banner_info {
+  display: flex;
+}
+
+.banner_container {
+  -webkit-filter: blur(50);
+  filter: blur(50);
+}
+
+.banner_info {
+  flex-direction: column;
+}
+
+.banner_info button {
+  font-size: 1em;
+}
+
+.banner_info h1 {
+  font-size: 1.75em;
+}
+
+.banner_info p span {
+  font-weight: 400;
+}
+
+.banner_info button {
+  font-weight: bold;
+}
+
+.banner_info  {
+  gap: 0.325rem;
+}
+
+.banner_img,
+.banner_info {
+  height: 17rem;
+}
+
+.intro_lizzin_img {
+  height: 25rem;
+}
+
+.banner_img, .banner_info {
+  justify-content: center;
+}
+
+.banner_info p  {
+  margin-bottom: .75rem;
+}
+
+.banner_container,
+.banner_img {
+  overflow: hidden;
+}
+
+.banner_info button {
+  padding: 8px 14px;
+}
+
+.banner_info {
+  padding-right: 1.825rem;
+}
+
+.banner_info {
+  text-align: center;
+}
+
+.banner_img {
+  width: 35%;
+}
+
+.banner_info p {
+  width: 55%;
+}
+
+.banner_info {
+  width: 65%;
+}
+
+@media (min-width: 1024px) {
+  .banner_info button {
+    padding: 10px 18px;
+  }
+}

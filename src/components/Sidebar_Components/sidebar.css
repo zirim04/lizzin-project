@@ -7,11 +7,6 @@
   gap: 0.5rem;
   color: var(--text-color);
 }
-@media (min-width: 1024px) {
-  .side_bar {
-    display: flex;
-  }
-}
 
 .side_home,
 .side_search,
@@ -57,7 +52,9 @@
 }
 
 .side_home,
-.side_search, .playlist-btn, .icon-btn {
+.side_search,
+.playlist-btn,
+.icon-btn {
   cursor: pointer;
 }
 
@@ -156,4 +153,10 @@
 
 .side_main_middle {
   padding-left: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .side_bar {
+    display: flex;
+  }
 }

@@ -5,6 +5,7 @@ import { RiHome6Line } from "react-icons/ri";
 import { BiLibrary, BiPlus, BiSearch } from "react-icons/bi";
 import { FaArrowRight } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa6";
+import { PiPlaylist } from "react-icons/pi";
 
 const Sidebar = () => {
   return (
@@ -15,8 +16,8 @@ const Sidebar = () => {
           <p>Home</p>
         </div>
         <div className="side_search">
-          <BiSearch className="icon-n" />
-          <p>Search</p>
+          <PiPlaylist className="icon-n" />
+          <p>Playlist</p>
         </div>
       </div>
 
@@ -31,6 +32,7 @@ const Sidebar = () => {
             <FaPlus className="icon-sn icon-btn" />
           </div>
         </div>
+
         <div className="side_main_middle">
             <h1>Create your first playlist</h1>
             <p>We're here to help</p>

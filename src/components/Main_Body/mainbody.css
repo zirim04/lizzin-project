@@ -1,0 +1,63 @@
+.main_container {
+  background-color: var(--base-color);
+}
+
+.popular_artists_container {
+  background-color: var(--primary-color);
+}
+
+.main_container {
+  border-radius: 0.25rem;
+}
+
+.main_container,
+.popular_artists_container {
+  display: flex;
+}
+
+.main_container {
+  flex-direction: column;
+}
+
+.main_container {
+  gap: 1rem;
+}
+
+.main_container {
+  height: 100%;
+}
+
+.banner,
+.popular_artists_container {
+  min-height: 17rem;
+}
+
+.banner {
+  overflow: hidden;
+}
+
+.main_container {
+  overflow-y: scroll;
+}
+
+.main_frame {
+  padding: 0.5rem;
+}
+
+.main_container {
+  scroll-behavior: smooth;
+}
+
+.main_container {
+  scrollbar-width: none;
+}
+
+.main_frame {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .main_frame {
+    padding-left: 0;
+  }
+}

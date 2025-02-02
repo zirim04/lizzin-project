@@ -1,0 +1,68 @@
+.signup_btn:hover {
+  background-color: #fffa10;
+}
+
+.signin_btn {
+  background-color: transparent;
+}
+
+.signup_btn {
+  background-color: var(--primary-color);
+}
+
+.signin_btn,
+.signup_btn {
+  border: none;
+}
+
+.signup_btn {
+  border-radius: 1rem;
+}
+
+.signin_btn:hover {
+  color: #fffa10;
+}
+
+.signin_btn {
+  color: var(--primary-color);
+}
+
+.signup_btn {
+  color: var(--secondary-color);
+}
+
+.signin_btn,
+.signup_btn {
+  cursor: pointer;
+}
+
+.signin_btn,
+.signup_btn {
+  font-size: 0.825em;
+}
+
+.signup_btn {
+  font-weight: bold;
+}
+
+.signin_btn {
+  font-weight: normal;
+}
+
+.signin_btn {
+  letter-spacing: 0.05em;
+}
+
+.signup_btn {
+  padding: 8px 14px;
+}
+
+@media (min-width: 1024px) {
+  .signin_btn,
+  .signup_btn {
+    font-size: 1em;
+  }
+  .signup_btn {
+    padding: 10px 18px;
+  }
+}

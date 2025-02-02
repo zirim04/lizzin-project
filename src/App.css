@@ -1,10 +1,19 @@
-.main-container {
-  height: 100dvh;
-  width: 100vw;
-  background-color: #151515;
+.app {
+  background-color: var(--secondary-color);
 }
 
-.container  {
+.container {
   display: flex;
-  height: 90%;
+}
+
+.app {
+  height: 100dvh;
+}
+
+.container {
+  height: 80%;
+}
+
+.app {
+  width: 100vw;
 }

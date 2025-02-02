@@ -1,13 +1,17 @@
 import React from "react";
 import "./app.css";
-import Sidebar from "./components/sidebar/Sidebar";
-import Player from "./components/Player";
+import Sidebar from "./components/Sidebar_Components/Sidebar";
+import Player from "./components/Player_Components/Player";
+import Navbar from "./components/Navbar_Components/Navbar";
+import MainBody from "./components/Main_Body/MainBody";
 
 const App = () => {
   return (
-    <div className="main-container">
+    <div className="app">
+      <Navbar />
       <div className="container">
         <Sidebar />
+        <MainBody />
       </div>
       <Player />
     </div>
